@@ -1,11 +1,28 @@
-.c-tab--btns {display: flex; flex-direction: row; gap: 1rem;}
+.c-tab--btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 .c-tab--content {
-    padding: 1rem;
+  padding: 1rem;
 }
 .c-tab--content > * {
-    display: none;
+  display: none;
 }
 
 .c-tab--content > .c-tab--active {
-    display: block;
+  display: block;
+}
+.c-numeric-input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  color: black; /* Set the text color to black */
+}
+
+.c-numeric-input--error {
+  border-color: red !important; /* Ensure that the red border is applied even if other styles try to override it */
+}
+
+.c-numeric-input--valid {
+  border-color: green !important; /* Ensure that the green border is applied even if other styles try to override it */
 }

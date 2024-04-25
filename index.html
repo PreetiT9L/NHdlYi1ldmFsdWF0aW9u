@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="/src/components/tab/tab.css" />
-</head>
-<body>
-<div id="root">
+  <head>
+    <link rel="stylesheet" href="src/components/tab/tab.css" />
+  </head>
+  <body>
     <div class="c-tab" data-default-tab="0">
         <div class="c-tab--btns">
             <button data-for-tab="0">Numeric Input</button>
@@ -12,7 +11,7 @@
             <button data-for-tab="2">Shopping Cart</button>
         </div>
         <div class="c-tab--content">
-            <div data-tab="0">
+            <div class="c-tab--active" data-tab="0">
                 <h1>Numeric Input Component</h1>
                 <label>Enter Number: </label>
                 <input class="c-numeric-input" type="text"/>
@@ -40,7 +39,10 @@
         </div>
     </div>
 </div>
-
-<script type="module" src="src/app.js" defer></script>
-</body>
+    <script src="src/exercises/relative-date.js" defer></script>
+    <script src="src/exercises/numeric-input.js" defer></script>
+    <script src="src/exercises/shopping-cart.js"></script>
+    <script src="src/components/tab/tab.js"></script>
+    <script type="module" src="src/app.js" defer></script>
+  </body>
 </html>

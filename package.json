@@ -2,6 +2,7 @@
   "name": "web-evaluation",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "web-dev-server --open index.html --node-resolve --watch --port 4001",
     "start:api": "json-server --watch db/db.json --port 4002",
